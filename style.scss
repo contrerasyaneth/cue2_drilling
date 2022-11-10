@@ -1,0 +1,33 @@
+.header{
+    background: rgb(143, 212, 233);
+
+    &__navegation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &__titulo{
+            color: fuchsia;
+        }
+        &__link{
+            text-decoration: none;
+            text-align: center;
+            color:fuchsia;
+        }
+
+    }
+}
+
+.menu{
+
+    &__navegation{
+        
+        &__titulo{
+            color: fuchsia;
+        }
+        &__caja{
+            width: 80%;
+        }
+    }
+}
+
+

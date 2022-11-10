@@ -1,0 +1,25 @@
+.header {
+  background: rgb(143, 212, 233);
+}
+.header__navegation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__navegation__titulo {
+  color: fuchsia;
+}
+.header__navegation__link {
+  text-decoration: none;
+  text-align: center;
+  color: fuchsia;
+}
+
+.menu__navegation__titulo {
+  color: fuchsia;
+}
+.menu__navegation__caja {
+  width: 80%;
+}
+
+/*# sourceMappingURL=style.css.map */
