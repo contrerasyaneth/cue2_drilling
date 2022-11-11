@@ -3,14 +3,13 @@
 
     &__navegation{
         display: flex;
-        justify-content: center;
-        align-items: center;
+        text-align: center;
+
         &__titulo{
             color: fuchsia;
         }
         &__link{
             text-decoration: none;
-            text-align: center;
             color:fuchsia;
         }
 
@@ -18,33 +17,40 @@
 }
 
 .menu{
-      
+     margin: 10%;
     &__navegation{
         
         &__seccion{
             display: flex;
             flex-direction: row;
         }
-        &__titulo{
-            color:fuchsia;
+        &__titulo1{
+            color:rgb(114, 5, 114);
+            margin-left: 5%;
+            
         }
         &__summary{
             list-style: none;
-        
+            background: blue;
+            
+        }
+        &__imagen{
+            margin-bottom:0% ;
         }
         &__titulo2{
             color: fuchsia;
         }
         &__parrafo{
             text-align: center;
-            background: blue;
-            width: 100%;
-            margin-left:2%;
             color: aliceblue;
+            margin-top: 2%;
         }
         &__caja{
           margin-left: 2%;
           
+        }
+        &__imagen2{
+            width: 22%;
         }
     }
 }

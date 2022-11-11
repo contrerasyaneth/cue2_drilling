@@ -3,40 +3,47 @@
 }
 .header__navegation {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 .header__navegation__titulo {
   color: fuchsia;
 }
 .header__navegation__link {
   text-decoration: none;
-  text-align: center;
   color: fuchsia;
 }
 
+.menu {
+  margin: 10%;
+}
 .menu__navegation__seccion {
   display: flex;
   flex-direction: row;
 }
-.menu__navegation__titulo {
-  color: fuchsia;
+.menu__navegation__titulo1 {
+  color: rgb(114, 5, 114);
+  margin-left: 5%;
 }
 .menu__navegation__summary {
   list-style: none;
+  background: blue;
+}
+.menu__navegation__imagen {
+  margin-bottom: 0%;
 }
 .menu__navegation__titulo2 {
   color: fuchsia;
 }
 .menu__navegation__parrafo {
   text-align: center;
-  background: blue;
-  width: 100%;
-  margin-left: 2%;
   color: aliceblue;
+  margin-top: 2%;
 }
 .menu__navegation__caja {
   margin-left: 2%;
+}
+.menu__navegation__imagen2 {
+  width: 22%;
 }
 
 /*# sourceMappingURL=style.css.map */
