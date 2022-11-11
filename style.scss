@@ -18,20 +18,33 @@
 }
 
 .menu{
-
+      
     &__navegation{
         
+        &__seccion{
+            display: flex;
+            flex-direction: row;
+        }
         &__titulo{
             color:fuchsia;
         }
         &__summary{
             list-style: none;
+        
+        }
+        &__titulo2{
+            color: fuchsia;
         }
         &__parrafo{
             text-align: center;
             background: blue;
-            width: 20%;
-            margin-left:2% ;
+            width: 100%;
+            margin-left:2%;
+            color: aliceblue;
+        }
+        &__caja{
+          margin-left: 2%;
+          
         }
     }
 }
