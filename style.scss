@@ -22,10 +22,16 @@
     &__navegation{
         
         &__titulo{
-            color: fuchsia;
+            color:fuchsia;
         }
-        &__caja{
-            width: 80%;
+        &__summary{
+            list-style: none;
+        }
+        &__parrafo{
+            text-align: center;
+            background: blue;
+            width: 20%;
+            margin-left:2% ;
         }
     }
 }

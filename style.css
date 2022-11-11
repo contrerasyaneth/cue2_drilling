@@ -18,8 +18,14 @@
 .menu__navegation__titulo {
   color: fuchsia;
 }
-.menu__navegation__caja {
-  width: 80%;
+.menu__navegation__summary {
+  list-style: none;
+}
+.menu__navegation__parrafo {
+  text-align: center;
+  background: blue;
+  width: 20%;
+  margin-left: 2%;
 }
 
 /*# sourceMappingURL=style.css.map */
